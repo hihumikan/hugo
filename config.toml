@@ -1,4 +1,4 @@
 baseURL = "https://blog.qqey.net/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+languageCode = "ja"
+title = "blog.qqey.net"
 theme = "newsroom"
