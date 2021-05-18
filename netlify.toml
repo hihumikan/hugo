@@ -3,7 +3,7 @@ publish = "public"
 command = "hugo --theme=newsroom --gc --minify"
 
 [context.production.environment]
-HUGO_VERSION = "0.82.1"
+HUGO_VERSION = "0.83.1"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
