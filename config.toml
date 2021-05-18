@@ -1,4 +1,4 @@
 baseURL = "https://blog.qqey.net/"
-languageCode = "ja"
+languageCode = "en-us"
 title = "blog.qqey.net"
 theme = "newsroom"
