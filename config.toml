@@ -1,4 +1,4 @@
-baseURL = "https://vigilant-feynman-e1a64b.netlify.app/"
+baseURL = "https://hugo-eta-liart.vercel.app/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "newsroom"
