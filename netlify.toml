@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "hugo --theme=newsroom --gc --minify"
+command = "hugo --theme=npq-hugo --gc --minify"
 
 [context.production.environment]
 HUGO_VERSION = "0.83.1"
@@ -8,20 +8,20 @@ HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
 [context.split1]
-command = "hugo --gc --minify --theme=newsroom --enableGitInfo"
+command = "hugo --gc --minify --theme=npq-hugo --enableGitInfo"
 
 [context.split1.environment]
 HUGO_VERSION = "0.83.1"
 HUGO_ENV = "production"
 
 [context.deploy-preview]
-command = "hugo --gc --minify  --theme=newsroom --buildFuture -b $DEPLOY_PRIME_URL"
+command = "hugo --gc --minify  --theme=npq-hugo --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
 HUGO_VERSION = "0.83.1"
 
 [context.branch-deploy]
-command = "hugo --gc  --theme=newsroom --minify -b $DEPLOY_PRIME_URL"
+command = "hugo --gc  --theme=nnpq-hugo --minify -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.83.1"
